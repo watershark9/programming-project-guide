@@ -1,0 +1,28 @@
+# Jekyll configuration for GitHub Pages
+title: "Programming Project Guide"
+description: "Stellar Object API - A RESTful API project guide for managing stellar object catalogs"
+url: "https://watershark9.github.io"
+baseurl: "/programming-project-guide"
+
+# GitHub Pages settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
